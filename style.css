@@ -71,6 +71,7 @@ body{
     margin: 0 20px;
     padding: 20px;
     font-size: 30px;
+    box-shadow: 10px 10px 40px grey;
 }
 #amount-color{
     border: 4px solid tomato;
