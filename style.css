@@ -36,13 +36,11 @@ body{
     padding: 17px 20px;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px tomato;
     transition: .5s;
     font-size: 25px;
 }
 .link-button:hover{
     background-color: blue;
-    box-shadow: 1px 1px 3px blue;
 }
 /* Donation Area start*/
 .donate-item{
