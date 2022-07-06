@@ -67,9 +67,11 @@ body{
     margin-bottom: 150px;
 }
 .item-color{
+    width: 100px;
+    height: 100px;
     background-color: rgb(252, 241, 241);
     margin: 0 20px;
-    padding: 10px 20px;
+    padding: 20px;
     font-size: 30px;
 }
 #amount-color{
@@ -83,11 +85,14 @@ body{
 }
 .input-field{
     border: none;
+    border-bottom: 50px;
     border-bottom: 2px solid grey;
+    padding: 10px 250px;
     text-align: center;
     margin-bottom: 45px;
+    font-size: 25px;
 }
-/* Donation Area end */
+
 .parrent-box{
     display: flex;
     align-items: center;
@@ -124,7 +129,7 @@ body{
 .donation-section{
     margin-bottom: 120px;
 }
-
+/* Donation Area end */
 /* people area start */
 .people-text{
     text-align: center;
@@ -156,9 +161,12 @@ body{
 .people-section{
     margin-bottom: 120px;
 }
+/* people area ends */
+
 /* update area start */
 .update-text{
     text-align: center;
+    margin-bottom: 40px;
 }
 .update-text h2{
     font-size: 45px;
@@ -167,13 +175,16 @@ body{
     font-size: 20px;
     color: grey;
 }
-
+.update-section{
+    margin-bottom: 120px;
+}
 .subscribe{
     width: 60%;
     background-color: blanchedalmond;
     margin: 0 auto;
     padding: 100px 100px;
     text-align: center;
+    border-radius: 5px;
 }
 .input-style{
     padding: 20px 70px;
@@ -190,3 +201,22 @@ body{
     color: #fff;
     border: none;
 }
+/* update area ends */
+
+/* Footer Section start */
+.footer-text{
+    text-align: center;
+    background-color: #000;
+    padding:50px;
+   
+}
+.footer-text h3{
+    color: tomato;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+.footer-text p{
+    color: #fff;
+   
+}
+/* Footer Section ends */
