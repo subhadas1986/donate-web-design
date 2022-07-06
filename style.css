@@ -36,13 +36,13 @@ body{
     padding: 17px 20px;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px tomato;
+    box-shadow: 1px 1px 3px tomato;
     transition: .5s;
     font-size: 25px;
 }
 .link-button:hover{
     background-color: blue;
-    box-shadow: 3px 3px 10px blue;
+    box-shadow: 1px 1px 3px blue;
 }
 /* Donation Area start*/
 .donate-item{
@@ -121,3 +121,72 @@ body{
     height: 280px;
     font-size: 18px;
 }  
+.donation-section{
+    margin-bottom: 120px;
+}
+
+/* people area start */
+.people-text{
+    text-align: center;
+    font-size: 30px;
+}
+.father-item img{
+    width: 100%;
+}
+.father-item{
+    display: flex;
+}
+.child-item{
+    margin: 20px;
+    box-shadow: 10px 10px 40px grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-style{
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    transition: .5s;
+}
+.btn-style:hover{
+    background-color: blue;
+}
+.people-section{
+    margin-bottom: 120px;
+}
+/* update area start */
+.update-text{
+    text-align: center;
+}
+.update-text h2{
+    font-size: 45px;
+}
+.update-text p{
+    font-size: 20px;
+    color: grey;
+}
+
+.subscribe{
+    width: 60%;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    padding: 100px 100px;
+    text-align: center;
+}
+.input-style{
+    padding: 20px 70px;
+    font-size: 20px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.subscribe-button{
+    padding: 20px 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+}
